@@ -12,3 +12,4 @@ python -m venv .venv
 source .venv/bin/activate
 pip install qiskit qiskit-aer qutip matplotlib pylatexenc
 python -c "import qiskit, qutip, qiskit_aer; print(qiskit.__version__, qutip.__version__)"
+pip install numpy matplotlib qiskit ipywidgets
